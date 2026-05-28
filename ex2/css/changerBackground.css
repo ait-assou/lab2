@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fefefe;
+    fontfamily: Arial, Helvetica, sans-serif;
+    fontsize: 12px;
+}
+
+.container {
+    
+
+}
+
+main {
+    padding: 1rem;
+}
+
+main p {
+    margin-bottom: 0.2rem;
+    padding: 0.5rem 0
+}
+
+input[type="button"] {
+    padding: 0.5rem 1rem;
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 4px 2px;
+    textdecoration: none;
+    padding: 16px 32px;
+}
+
+
+
+footer {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
