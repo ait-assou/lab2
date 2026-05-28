@@ -1,3 +1,6 @@
+
+
+
 function phraseMajuscule(phrase) {
     let mots = phrase.split(" ");
     let motsMajuscules = mots.map(mot => {
