@@ -17,13 +17,19 @@
         </header>
         <main>
             <div class="column">
-                <input type="range" min="0" max="255" value="50" id="slider1">
+                
+            <label for="slider1">Rouge</label>
+            <input type="range" min="0" max="255" value="50" id="slider1">
+            <label for="slider1">Vert</label>
             <input type="range" min="0" max="255" value="50" id="slider2">
+            <label for="slider1">B</label>
             <input type="range" min="0" max="255" value="50" id="slider3">
             </div>
 
             <div >
-                <div id="couleur-affichee"></div>
+                <div id="couleur-affichee">
+                    <p>Je suis un paragraph</p>
+                </div>
             <button id="genererCouleur" onclick="genererCouleur()">Changer la couleur</button>
             </div>
 

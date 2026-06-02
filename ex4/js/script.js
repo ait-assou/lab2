@@ -2,7 +2,7 @@ const slider1 = document.getElementById('slider1');
 const slider2 = document.getElementById('slider2');
 const slider3 = document.getElementById('slider3');
 const couleurAffichee = document.getElementById("couleur-affichee");
-
+const body = document.body;
 
 function genererCouleur() {
     console.log("Génération d'une nouvelle couleur aléatoire...");
@@ -20,6 +20,10 @@ function genererCouleur() {
 
     const couleurRGB = `rgb(${r}, ${g}, ${b})`;
     couleurAffichee.style.backgroundColor = couleurRGB;
+
+    // Mettre à jour la couleur de fond du body
+    const coulerRGB_Alpha = `rgba(${r}, ${g}, ${b}, 0.8)`; // Couleur avec une opacité de 0.8   
+    body.style.backgroundColor = coulerRGB_Alpha;
 }
 
 

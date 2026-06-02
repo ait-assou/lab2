@@ -1,5 +1,8 @@
 
 
+const titre = document.getElementById("titre");
+
+titre.textContent = phraseMajuscule(titre.textContent);
 
 function phraseMajuscule(phrase) {
     let mots = phrase.split(" ");

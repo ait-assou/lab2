@@ -25,9 +25,23 @@ main {
 }
 
 #couleur-affichee {
-    width: 100px;
+    width: 175px;
     height: 100px;
     margin-bottom: 0.5rem;
+    display: grid;
+    place-items: center;
+    font-weight: bold;
+}
+
+#genererCouleur {
+    padding: 0.5rem 1rem;
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 4px 2px;
+    text-decoration: none;
+    padding: 16px 32px;
 }
 
 .column {
